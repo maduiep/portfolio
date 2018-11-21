@@ -292,6 +292,8 @@ i.material-icons{
     line-height: 8rem;
     border: 3px solid #fff;
     margin: 30px auto;
+    transform: translateY(5rem);
+    margin-bottom: 10rem;
    
 }
 .footer-header h2{
@@ -300,11 +302,12 @@ i.material-icons{
 .footer-contacts{
     width: 80%;
     margin: 5rem auto;
- 
+    
 }
 .contact{
     display: inline-block;
     width: 23%;
+    transform: translateX(10rem);
 }
 .contact h5{
     font-size: 1.8rem;
@@ -331,11 +334,11 @@ i.material-icons{
     display: block;
     text-decoration: none;
     color: #fff;
-    margin-bottom: 4rem;
+    margin-bottom: .5rem;
 }
 .footer-social span{
-font-size: 2rem;
-font-weight: 300;
+    font-size: 2rem;
+    font-weight: 300;
 }
 .connect-message{
     margin-top: 10rem;
@@ -369,4 +372,18 @@ input:hover, textarea:hover{
 }
 .line{
     float: right;
+}
+#send{
+    border: solid .1rem #e8491d;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    background: #e8491d;
+}
+.sendMessage{
+    margin-bottom: 10rem;
+    transform: translateX(57rem);
 }
